@@ -1,0 +1,176 @@
+/* Basic page styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #f4f6f9;
+}
+
+header {
+  background-color: #173b75;
+  color: white;
+  padding: 18px 8%;
+}
+
+header h1 {
+  margin: 0 0 14px;
+  font-size: 26px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+}
+
+.welcome {
+  background-color: #dce9ff;
+  text-align: center;
+  padding: 65px 20px;
+}
+
+.welcome h2 {
+  color: #173b75;
+  font-size: 34px;
+  margin-top: 0;
+}
+
+.welcome p {
+  max-width: 600px;
+  margin: 0 auto 25px;
+  line-height: 1.6;
+}
+
+.button,
+button {
+  display: inline-block;
+  background-color: #173b75;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 11px 17px;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button-light {
+  background-color: white;
+  color: #173b75;
+  border: 1px solid #173b75;
+}
+
+.content {
+  max-width: 950px;
+  margin: 35px auto;
+  padding: 0 20px;
+}
+
+.content h2 {
+  color: #173b75;
+}
+
+.steps,
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.steps article,
+.student-card {
+  background-color: white;
+  border: 1px solid #d8deea;
+  border-radius: 6px;
+  padding: 18px;
+  flex: 1 1 220px;
+}
+
+.steps h3,
+.student-card h3 {
+  color: #173b75;
+  margin-top: 0;
+}
+
+.student-card p {
+  margin: 8px 0;
+}
+
+#searchBox {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #aab4c5;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.skill-form {
+  max-width: 500px;
+  background-color: white;
+  border: 1px solid #d8deea;
+  border-radius: 6px;
+  padding: 22px;
+  margin-top: 20px;
+}
+
+.skill-form label {
+  display: block;
+  margin: 14px 0 6px;
+  font-weight: bold;
+}
+
+.skill-form input,
+.skill-form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px;
+  border: 1px solid #aab4c5;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.skill-form button {
+  margin: 18px 0 0;
+}
+
+.message {
+  color: #176b38;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 18px;
+  background-color: #e2e6ed;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 18px 5%;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px 12px 5px 0;
+  }
+
+  .welcome h2 {
+    font-size: 28px;
+  }
+
+  .content {
+    margin-top: 25px;
+  }
+}
