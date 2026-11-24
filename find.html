@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find a Student | LPU Skill Exchange</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>LPU Skill Exchange</h1>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a class="active" href="find.html">Find a Student</a>
+      <a href="share.html">Share a Skill</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Find a student</h2>
+    <p>Search for a skill you would like to learn.</p>
+
+    <input
+      id="searchBox"
+      type="text"
+      placeholder="Search skills, for example: Python"
+    >
+
+    <h3>Skills shared by students</h3>
+    <div id="savedSkills" class="student-list"></div>
+
+    <p id="noResults" class="message" hidden>
+      No students found. Try another skill.
+    </p>
+  </main>
+
+  <footer>
+    <p>Peer Tutoring Platform | Lovely Professional University</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
